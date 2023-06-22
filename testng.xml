@@ -3,13 +3,10 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="com.web.orangehrm.loginPage" />
+			<class name="test.orangeweb.loginPage" />
 
-			<class name="com.web.orangehrm.homePage" />
+			<class name="test.orangeweb.homePage" />
 
-			<class name="com.web.orangehrm.myInfoEdit" />
-
-			<class name="com.web.orangehrm.myInfoRestrictedFields" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

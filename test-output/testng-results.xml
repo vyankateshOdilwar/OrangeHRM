@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-22T20:47:25 IST" name="Default suite" finished-at="2023-06-22T20:48:11 IST" duration-ms="46113">
+  <suite started-at="2023-06-22T22:16:22 IST" name="Suite" finished-at="2023-06-22T22:18:09 IST" duration-ms="106587">
     <groups>
     </groups>
-    <test started-at="2023-06-22T20:47:25 IST" name="Default test" finished-at="2023-06-22T20:48:11 IST" duration-ms="46113">
+    <test started-at="2023-06-22T22:16:22 IST" name="Test" finished-at="2023-06-22T22:18:09 IST" duration-ms="106587">
+      <class name="test.orangeweb.homePage">
+        <test-method signature="profilecheck()[pri:0, instance:test.orangeweb.homePage@411f53a0]" started-at="2023-06-22T22:17:22 IST" name="profilecheck" finished-at="2023-06-22T22:18:06 IST" duration-ms="43533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profilecheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.orangeweb.homePage@411f53a0]" started-at="2023-06-22T22:18:06 IST" name="tearDown" finished-at="2023-06-22T22:18:09 IST" duration-ms="3128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.orangeweb.homePage -->
       <class name="test.orangeweb.loginPage">
-        <test-method signature="initElements()[pri:1, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:47:25 IST" name="initElements" finished-at="2023-06-22T20:47:49 IST" duration-ms="23938" status="PASS">
+        <test-method signature="initElements()[pri:1, instance:test.orangeweb.loginPage@4135c3b]" started-at="2023-06-22T22:16:23 IST" name="initElements" finished-at="2023-06-22T22:17:03 IST" duration-ms="40336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initElements -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:47:49 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T20:47:57 IST" duration-ms="8593" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@4135c3b]" started-at="2023-06-22T22:17:03 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T22:17:09 IST" duration-ms="5933" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:47:57 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T20:48:01 IST" duration-ms="3358" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@4135c3b]" started-at="2023-06-22T22:17:09 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T22:17:12 IST" duration-ms="3451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:48:01 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T20:48:04 IST" duration-ms="3532" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@4135c3b]" started-at="2023-06-22T22:17:12 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T22:17:16 IST" duration-ms="3447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:48:04 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T20:48:07 IST" duration-ms="3366" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@4135c3b]" started-at="2023-06-22T22:17:16 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T22:17:19 IST" duration-ms="3454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,11 +85,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:48:07 IST" name="tearDown" finished-at="2023-06-22T20:48:11 IST" duration-ms="3228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.orangeweb.loginPage@4135c3b]" started-at="2023-06-22T22:17:19 IST" name="tearDown" finished-at="2023-06-22T22:17:22 IST" duration-ms="3202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.orangeweb.loginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

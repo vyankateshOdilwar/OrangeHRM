@@ -14,7 +14,7 @@ public class homePage extends setupClass{
 	@Test
 	void profilecheck() throws InterruptedException {
 		resource = ResourceBundle.getBundle("config");
-		setup("edge",resource.getString("URL"));
+		setup("chrome",resource.getString("URL"));
 		loginpage = new page.orangeweb.Loginpage(driver);
 		loginpage.username.sendKeys(resource.getString("USERNAME"));
 		loginpage.password.sendKeys(resource.getString("PASSWORD"));
