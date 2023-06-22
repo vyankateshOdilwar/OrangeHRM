@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-22T20:47:25 IST" name="Default suite" finished-at="2023-06-22T20:48:11 IST" duration-ms="46113">
+    <groups>
+    </groups>
+    <test started-at="2023-06-22T20:47:25 IST" name="Default test" finished-at="2023-06-22T20:48:11 IST" duration-ms="46113">
+      <class name="test.orangeweb.loginPage">
+        <test-method signature="initElements()[pri:1, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:47:25 IST" name="initElements" finished-at="2023-06-22T20:47:49 IST" duration-ms="23938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initElements -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:47:49 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T20:47:57 IST" duration-ms="8593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:47:57 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T20:48:01 IST" duration-ms="3358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid_Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:48:01 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T20:48:04 IST" duration-ms="3532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:48:04 IST" name="loginTest" data-provider="testData" finished-at="2023-06-22T20:48:07 IST" duration-ms="3366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid_password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.orangeweb.loginPage@2a65fe7c]" started-at="2023-06-22T20:48:07 IST" name="tearDown" finished-at="2023-06-22T20:48:11 IST" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.orangeweb.loginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
